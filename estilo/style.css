@@ -14,8 +14,6 @@
     --cor5: #E6A318;
     --cor6: #FFFFFF;
     --cor7: #1D1D1D;
-    
-
 }
 
 header {
@@ -36,12 +34,13 @@ header > h2 {
     padding: 0px 10px 10px 10px;
 }
 
-nav ul {
-    background-color: var(--cor7);
-    list-style-type: none;
+nav p {
+    display: inline-block;
+    padding: 20px;
 }
 
-nav li {
-    display: inline-block;
-    padding: 10px;
+nav > p#navegacao:hover {
+    background-color: var(--cor5);
+    color: var(--cor2);
+    font-style: bold;
 }
