@@ -34,13 +34,13 @@ header > h2 {
     padding: 0px 10px 10px 10px;
 }
 
-nav p {
+nav a {
     display: inline-block;
     padding: 20px;
 }
 
-nav > p#navegacao:hover {
+nav > a#navegacao:hover {
     background-color: var(--cor5);
     color: var(--cor2);
-    font-style: bold;
+    font-weight: bold;
 }
