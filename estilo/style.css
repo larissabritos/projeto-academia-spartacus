@@ -26,6 +26,7 @@ body, html {
     background-color: var(--cor5);
 }
 
+/* CABEÇALHO E NAVEGAÇÃO */
 
 header {
     background-color: var(--cor1);
@@ -33,8 +34,9 @@ header {
     text-align: center;
     border-radius: 30px;
     box-shadow: 5px solid black;
+    width: 97vw;
+    margin: auto;
 }
-
 
 header > h1 {
     font-family: var(--fonte-destaque);
@@ -42,13 +44,11 @@ header > h1 {
     font-size: 3em;
 }
 
-
 header > h2 {
     font-family: var(--fonte-intermediaria);
     color: var(--cor4);
     padding: 0px 10px 10px 20px;
 }
-
 
 nav a {
     display: inline-block;
@@ -58,7 +58,6 @@ nav a {
 
 }
 
-
 nav > a#navegacao:hover {
     background-color: var(--cor5);
     color: var(--cor2);
@@ -67,5 +66,17 @@ nav > a#navegacao:hover {
     position: relative;
     transform: translate(-3px, -3px);
     transition: transform 0.2s, border 0s;
+    
+}
+
+/* PRINCIPAL */
+
+main {
+    background-color: var(--cor6);
+    text-align: justify;
+    border-radius: 20px;
+    box-shadow: 5px solid black;
+    width: 97vw;
+    margin: auto;
     
 }
